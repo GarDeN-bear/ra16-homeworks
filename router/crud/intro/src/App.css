@@ -1,0 +1,104 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+body {
+    background-color: #888;
+}
+
+.create-button-header {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10%;
+    background-color: white;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 1%;
+}
+
+.btn:hover {
+    color: gray;
+}
+
+.create-button-header a {
+    color: white;
+}
+
+.post-card {
+    margin-top: 2%;
+
+    background-color: blue;
+}
+
+.post-card a {
+    color: white;
+}
+
+.post-card a:hover {
+    color: grey;
+}
+
+.post-element {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 20vw;
+    padding: 5%;
+    background-color: cadetblue;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-form textarea {
+    height: 10vw;
+    background-color: white;
+    color: black;
+}
